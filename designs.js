@@ -16,8 +16,8 @@ function makeGrid() {
 	var table = $('#pixelCanvas');
 	var i,j,row;
 	//clean element
-	table.children().remove();
-	for(i=1; i<= height; i++){
+	
+	for(i=1; i< height; i++){
 		    table.append('<tr> </tr>');
 		 for ( j=1; j<=width; j++) {
 		 	table.children().last().append('<td class="colorP"> </td>');
